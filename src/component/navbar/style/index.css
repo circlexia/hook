@@ -1,0 +1,97 @@
+.upcore-navbar {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  color: #333;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  background-color: #ffffff;
+  z-index: 999;
+}
+.upcore-navbar-icon-left {
+  position: absolute;
+  top: 5px;
+  background: url("left.png");
+  background-size: 30px 30px;
+  width: 30px;
+  height: 30px;
+  left: 10px;
+}
+.upcore-navbar-icon-right {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  height: 30px;
+  margin: 0;
+}
+.upcore-navbar-icon-right .disabled {
+  pointer-events: none;
+}
+.upcore-navbar-icon-right-img {
+  max-width: 30px;
+  height: 30px;
+}
+.upcore-navbar-name-span{
+  color: #333;
+  width: 70%;
+  display: inline-block;
+  overflow: hidden;
+  height: 40px;
+  white-space: nowrap;
+  position: relative;
+  font-family: 'PingFangSC-Light';
+}
+.upcore-navbar-name-inside {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* margin: auto;
+  left: 0;
+  right: 0; */
+}
+.upcore-navbar-name-inside2 {
+  position: absolute;
+}
+.device-maneger-wrap{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 12px;
+  right: 10px;
+}
+.device-maneger-word{
+  margin-right: 5px;
+  color: #333333;
+  font-size: 14px;
+}
+.device-maneger-right{
+  background-image: url('../../../assets/img/IconLeft.png');
+  background-size: cover;
+  opacity: .35;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  float: right;
+}
+.fortest{
+  right: 0;
+}
+.am-popover-arrow{
+  display: none;
+}
+.am-popover-inner{
+  padding: 12px;
+}
+.device-maneger-item{
+  /* padding-bottom: 20px; */
+}
+.upcore-navbar-name-span .am-notice-bar {
+  background: #fff;
+  color: #000;
+  font-size: 17px;
+  height: 40px;
+  line-height: 40px;
+}

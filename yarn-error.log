@@ -1,0 +1,62 @@
+Arguments: 
+  /usr/local/Cellar/node/10.0.0/bin/node /usr/local/Cellar/yarn/1.6.0/libexec/bin/yarn.js install
+
+PATH: 
+  /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/haier/Library/Android/sdk/tools:/Users/haier/Library/Android/sdk/tools/bin:/Users/haier/Library/Android/sdk/platform-tools:/usr/local/bin
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  10.0.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npmjs.org/@uplus%2fupdevicecore: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.6.0/libexec/lib/cli.js:65327:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.6.0/libexec/lib/cli.js:133155:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.6.0/libexec/lib/cli.js:134138:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.6.0/libexec/lib/cli.js:134058:12)
+      at Object.onceWrapper (events.js:275:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1091:14)
+      at process._tickCallback (internal/process/next_tick.js:174:19)
+
+npm manifest: 
+  {
+    "name": "air-template",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+      "@uplus/updevicecore": "^0.0.1",
+      "antd-mobile": "^2.1.8",
+      "mobx": "^3.6.1",
+      "mobx-react": "^4.4.2",
+      "react": "^16.4.1",
+      "react-dom": "^16.4.1",
+      "react-router-dom": "^4.2.2",
+      "react-scripts": "1.1.4"
+    },
+    "devDependencies": {
+      "babel-cli": "^6.26.0",
+      "babel-plugin-import": "^1.6.5",
+      "react-app-rewire-mobx": "^1.0.7",
+      "react-app-rewired": "^1.4.1"
+    },
+    "scripts": {
+      "start": "react-app-rewired start",
+      "build": "react-app-rewired build",
+      "test": "react-app-rewired test --env=jsdom",
+      "eject": "react-scripts eject"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

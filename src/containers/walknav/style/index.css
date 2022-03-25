@@ -1,0 +1,228 @@
+@import '~antd/dist/antd.css';
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-overflow-scrolling: touch;
+}
+:root{
+  --font:16px;
+  --basefont:10px;
+}
+#root {
+  /* width:750px; */
+  background-color: #f5f5f5;
+  height: 100%;
+}
+.app{
+  height: 100%;
+  position: relative;
+  overflow: auto;
+  background: #F5F5F5;
+}
+.upcore-navbar {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  color: #333;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #FFFFFF;
+}
+.upcore-navbar-icon-left {
+  position: absolute;
+  top: 5px;
+  background: url("../../../assets/img/IconLeft.png");
+  background-size: 30px 30px;
+  width: 30px;
+  height: 30px;
+  left: 10px;
+}
+.upcore-navbar-name-span{
+  color: #333;
+}
+.header__container{
+  display: inline-block;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 16px;
+  border-top: 1px solid #f6f6f6;
+  overflow-x: hidden;
+  margin-top: 40px;
+}
+.header__title{
+  text-align: center;
+  padding: 13px 0 0px;
+  font-family: 'PingFangSC-Regular';
+  font-size: 18px;
+  color: #26A5FD;
+}
+.header__account{
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  width: 100%;
+}
+.header__total{
+  font-size: 16px;
+  text-align: center;
+  color: #26A5FD;
+  padding-top: 22px;
+  padding-bottom: 6px;
+}
+.header__cal{
+  display: inline-block;
+  font-size: 16px;
+  color: #26A5FD;
+  padding-right: 5px;
+}
+.content__title{
+  font-size: 16px;
+  color: #3C3939;
+  font-weight: bold;
+  padding: 14px 0 14px 13px;
+  font-family: 'PingFangSC-Regular';
+  margin-bottom: 0;
+}
+.am-tabs-default-bar-underline{
+  border: 0!important;
+  height: 0;
+}
+.am-tabs-default-bar-top .am-tabs-default-bar-tab::after{
+  height: 0px!important;
+}
+.content__container{
+  background: #fff;
+  margin: 0 12px;
+  border-radius: 10px;
+  width: calc(100% - 24px);
+  overflow-x: hidden;
+}
+.footer__container{
+  background: #fff;
+  width: calc(100% - 24px);
+  margin: 0 auto;
+}
+.footer__container p{
+  font-size: 12px;
+  font-family: 'PingFangSC-Light';
+  height: 20px;
+  line-height: 20px;
+  margin-bottom: 0;
+  margin-left: 12px;
+}
+.content__suggest{
+  background: #fff;
+  margin: 0 16px 8px;
+  width: calc(100% - 32px);
+  overflow-x: hidden;
+}
+.content__suggest_desc{
+  font-size: 14px;
+  margin-left: 12px;
+  padding-bottom: 15px;
+  color: #5C5C5C;
+}
+.header__number{
+  width: 130px;
+  /* height: 130px;
+  line-height: 130px; */
+  border: 1px solid #26A5FD;
+  border-radius: 50%;
+  display: inline-block;
+}
+.footerImg{
+  width: 26px;
+  height: 20px;
+  display: block;
+  margin: 0 auto;
+}
+.footer{
+  display: block;
+  height: 40px;
+  padding-top: 20px;
+}
+.today__count{
+  display: block;
+  font-size: 32px;
+  height: 50px;
+  line-height: 50px;
+  color: #26A5FD;
+}
+.today__bu{
+  font-size: 14px;
+  height: 40px;
+  line-height: 20px;
+  display: block;
+  color: #26A5FD;
+}
+.fireImg>img{
+  width: 13px;
+  display: inline-block;
+  margin-right: 6px;
+  margin-top: -4px;
+}
+.am-tabs-default-bar-content .am-tabs-default-bar-tab-active{
+  width: 100px!important;
+  height: 25px;
+  border: 1px solid #26A5FD!important;
+  /* border-radius: 30px; */
+  font-size: 14px;
+}
+.am-tabs-default-bar-tab{
+  width: 100px!important;
+  height: 34px!important;
+  line-height: 34px!important;
+  border: 1px solid #979797;
+  /* border-radius: 30px; */
+  font-size: 14px;
+}
+.am-tabs-default-bar-content{
+  margin-left: 9px;
+}
+#m-tabs-0-0{
+  margin-right: 5px;
+}
+.am-tabs-default-bar-top .am-tabs-default-bar-tab{
+  border: 1px solid!important;
+}
+.wrapVal{
+  padding: 5px;
+  background-color: #26A6FF;
+  border-radius: 30px;
+}
+.am-tabs *{
+  border-radius: 30px!important;
+}
+.container-wrap{
+  width: 100%;
+  overflow-x: hidden;
+}
+.am-tabs-default-bar-top .am-tabs-default-bar-tab, .am-tabs-default-bar-bottom .am-tabs-default-bar-tab {
+  border-radius: 30px;
+  overflow: hidden;
+}
+.sport__container{
+  position: relative;
+}
+.btn__group>span{
+  width: 100px;
+  height: 34px;
+  border: 1px solid #ccc;
+  display: inline-block;
+  line-height: 34px;
+  border-radius: 30px;
+  text-align: center;
+  margin-right: 8px;
+}
+.active{
+  border: 1px solid #26A5FD!important;
+  color: #26A5FD;
+}
+.am-tabs *{
+  border-radius: 30px!important;
+}
+.btn__group{
+  padding-left: 9px;
+}
